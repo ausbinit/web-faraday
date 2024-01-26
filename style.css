@@ -1,0 +1,89 @@
+/* class name -> multiple -> .
+id -> single -> # */
+
+* {
+    margin: 0;
+}
+
+.hero-section {
+    height: 90vh;
+    /* background-image: url(./assets/background.jpg);
+     */
+    background-image: linear-gradient(to bottom, rgba(0,0,0, .4), rgba(0,0,0,0.8)), url(./assets/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#profile {
+    height: 160px;
+    width: 160px;
+    border: 6px solid #ff0000;
+    border-radius: 50%;
+}
+
+#title {
+    font-size: 20px;
+    color: white;
+    font-style: italic;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+}
+
+.content {
+    /* trbl */
+    margin: 60px 0;
+    display: flex;
+    gap: 20px;
+}
+
+#left-content {
+    width: 33%;
+    background-image: url(./assets/image.jpeg);
+    min-height: 350px;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+
+#right-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+#description {
+    font-size: 16px;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+footer {
+    background-color: rgba(0,0,0,0.8);
+    padding: 8px;
+}
+
+#footer-text {
+    color: white;
+    text-align: center;
+}
+
+
+/* D Drive -> Create a folder by ur name
+    Add assets folder inside that folder
+    copy the images here
+    add index.html in the folder created by ur name
+    open index.html in edit plus
+
+    D -> assets -> drop your images here
+    D -> index.html
+*/
